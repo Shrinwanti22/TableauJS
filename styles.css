@@ -1,0 +1,15 @@
+.container {
+	width: 90%;
+}
+.container .viz-container ul.nav-list,
+.container .viz-container .viz {
+	display: inline-block;
+	width: 15%;
+	vertical-align: top;
+}
+.container .viz-container .viz {
+	width: 82%;
+}
+.container .viz-container ul.nav-list li {
+	padding: 5px;
+}

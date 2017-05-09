@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS API</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://public.tableau.com/javascripts/api/tableau_v8.debug.js"></script>
+	<script type="text/javascript" src="custom.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<h2 class="span7 pagination-centered">Corporate Dashboard</h2>
+		</div>
+		<div class="row">
+			<h3 class="span7 offset3 pagination-centered" id="sheetName"></h3>
+		</div>
+		<div class="row viz-container">
+			<ul id="menu" class="nav nav-list offset1 span2">
+				<li><button type="button" class="btn btn-info btn-lg" onClick="switchView('Project Dashboard')">Project Dashboard</button></li>
+				<li><button type="button" class="btn btn-info btn-lg" onClick="switchView('Performance Dashboard')">Performance Dashboard</button></li>
+			</ul>
+			<div id="viz" class="viz"></div>
+		</div>
+	</div>
+</body>
+</html>
