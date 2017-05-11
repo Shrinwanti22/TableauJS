@@ -1,5 +1,5 @@
 .container {
-	width: 90%;
+	width: 98%;
 }
 .container .viz-container ul.nav-list,
 .container .viz-container .viz {
@@ -12,4 +12,10 @@
 }
 .container .viz-container ul.nav-list li {
 	padding: 5px;
+}
+.container .viz-container ul.nav-list li .btn {
+	padding:  10px;
+	font-size: 12px;
+	width: 100%;
+	border-radius: 3px;
 }
